@@ -67,8 +67,8 @@ class _QuizScreenState extends State<QuizScreen> {
       child: ElevatedButton(
         onPressed: _answered ? null : () => _submitAnswer(option),
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.blue,
-          foregroundColor: Colors.white,
+          backgroundColor: const Color.fromARGB(255, 247, 152, 243),
+          foregroundColor: const Color.fromARGB(255, 172, 11, 113),
           padding: const EdgeInsets.symmetric(vertical: 12.0),
         ),
         child: Text(option),
